@@ -1,8 +1,8 @@
 version: '3'
 services:
   app:
-    image: haruriwow/helloword_app
-    container_name: helloword_app
+    image: haruriwow/helloworld_app
+    container_name: helloworld_app
     expose:
       - "8080"
     networks:
